@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<script lang="JavaScript">
+  function login(){
+      var user = document.getElementById("username").value;
+      var pass = document.getElementById("password").value;
+
+      if (user=="G.231.23.0105" && pass=="usmjaya"){
+          alert("selamat anda Berhasil login");
+          window.open("../index.html");
+      
+
+      }else{
+          alert("Username atau password salah")
+      }
+  }
+</script>
+<body>
+  <div class="posisi">
+    
+    <div class="atomanimate position-relative px-3 py-5 my-1">
+        <div class="atom">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+        </div>
+        <img class="bounce" src="../img/header-img.svg">
+        </div>
+        
+  
+    <div class="login">
+
+          <div class="avatar">
+            <i class="fa fa-user"></i>
+          </div>
+
+          <h2>Login Form</h2>
+
+          <div class="box-login">
+            <i class="fas fa-envelope-open-text"></i>
+            <input type="text" placeholder="Nim" id="username">
+          </div>
+
+          <div class="box-login">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="password">
+          </div>
+
+          <input type="button" class="btn-login" value="Login" onClick="login()"></input>
+          
+      </div>
+  </body>
+  </html>
