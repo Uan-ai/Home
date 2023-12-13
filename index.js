@@ -9,13 +9,13 @@ menuicn.addEventListener("click", () => {
 let query = document.querySelector('.query');
     let searchbtn = document.querySelector('.searchbtn')
     searchbtn.onclick = function(){
-        let url ='file:///D:/burhan/Tugas%20akhir/index.html#'+query.value;
+        let url ='https://uan-ai.github.io/Home/index.html#'+query.value;
         window.open(url,'_self');
     }
 
     let query2 = document.querySelector('#query2');
     let search2 = document.querySelector('#search2')
     search2.onclick = function(){
-        let url ='file:///D:/burhan/Tugas%20akhir/index.html#'+query2.value;
+        let url ='https://uan-ai.github.io/Home/index.html#'+query2.value;
         window.open(url,'_self');
     }
